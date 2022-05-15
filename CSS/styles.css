@@ -12,3 +12,68 @@ table td {
     padding: 10px;
     border: 1px solid #2a2a2a;
 }
+#title{
+    font-weight: 500;
+    color: orange;
+}
+.social-links a {
+    color: blue;
+    text-decoration: none;
+}
+.menu > li {
+    border: 1px solid tomato;
+}
+a[title] {
+    color: teal;
+}
+a[href="https://htmlreference.io"] {
+    color: teal;
+}
+
+a[href="https://cssreference.io"] {
+    color: orange;
+}
+
+a[href="https://www.youtube.com"] {
+    color: tomato;
+}
+.link {
+    color: teal;
+}
+.link:hover {
+    color: tomato;
+}
+.social-links .link:focus {
+    color: orange;
+}
+.social-links .link:active {
+    color: red;
+}
+.social-links .link:visited {
+  color: green;
+}
+.suppliers-body > tr:hover
+{
+    background-color: tomato;
+    color: white;}
+    /* Оформление таблицы */
+.suppliers-head>tr:hover {
+  border-collapse: collapse;
+  background-color: aqua;
+  color: red;
+  cursor: help;} 
+
+.suppliers > th,
+.suppliers td {
+  padding: 8px;
+  border: 1px solid #212121;
+}
+/* Специфичность - 0 0 0 1 */
+p {
+    color: green;
+}
+
+/* ✅ Специфичность - 0 0 0 2 */
+article>p {
+    color: orange;
+}
